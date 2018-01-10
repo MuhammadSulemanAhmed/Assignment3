@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0f4f8f"
+    tools:context="com.example.salman.assignment_test.Fragmenttwo">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Portofolio"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="#02f"
+        android:textCursorDrawable="@color/colorPrimaryDark"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="23dp"
+        android:text="Name: Suleman"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvname"
+        android:layout_alignStart="@+id/tvname"
+        android:layout_below="@+id/tvportofolio"
+        android:layout_marginTop="38dp"
+        android:text="Phone: 03153420690" />
+
+    <TextView
+        android:id="@+id/tvportofolio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="Degree: Bechulor of Scince in Computer Science"
+        android:layout_below="@+id/tvname"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <TextView
+        android:id="@+id/tvemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="36dp"
+        android:text="Email: suleman@gmail.com" />
+
+    <TextView
+        android:id="@+id/smstr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="80dp"
+        android:text="Semester: 7TH" />
+</RelativeLayout>
